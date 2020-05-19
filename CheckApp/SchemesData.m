@@ -10,6 +10,20 @@
 
 @implementation SchemesData
 
+/*
+Slack - slack
+Signal - sgnl
+VIPole - VIPole
+Wee - wechat
+Zoom - zoomus
+Teams - msteams
+Threema - threemawork
+Hangouts - com.google.hangouts
+FBMess - fb-messenger
+Discord - com.hammerandchisel.discord
+Business - sip
+*/
+
 + (NSArray *)bundles {
     return @[
         @{
@@ -82,20 +96,20 @@
 
 + (NSArray *)Business {
     return @[
-@"lync-intunemam",
-@"lync",
-@"ms-sfb-df",
-@"ms-sfb-tp",
-@"ms-sfb-intunemam",
-@"ms-sfb",
-@"sip-intunemam",
-@"sip",
+        @"lync-intunemam",
+        @"lync",
+        @"ms-sfb-df",
+        @"ms-sfb-tp",
+        @"ms-sfb-intunemam",
+        @"ms-sfb",
+        @"sip-intunemam",
+        @"sip",
     ];
 }
 
 + (NSArray *)Discord {
     return @[
-@"com.hammerandchisel.discord",
+        @"com.hammerandchisel.discord",
     ];
 }
 
@@ -145,9 +159,6 @@
         @"fb-messenger-cw",
         @"fb-messenger-nbf",
         @"fb-messenger-prefill-20191211",
-
-
-
     ];
 }
 
@@ -182,24 +193,20 @@
 
 + (NSArray *)Slack {
     return @[
-        
         @"slack",
         @"com.googleusercontent.apps.331588195051-jsmlcgdl2li407e48kjpjqgrb50k7u7c",
-
     ];
 }
 
 + (NSArray *)Signal {
     return @[
         @"sgnl",
-
     ];
 }
 
 + (NSArray *)VIPole {
     return @[
         @"VIPole",
-
     ];
 }
 
@@ -214,7 +221,6 @@
         @"prefs",
         @"wx703",
         @"weixinULAPI",
-
     ];
 }
 
@@ -232,7 +238,6 @@
     return @[
     ];
 }
-
 
 @end
 
