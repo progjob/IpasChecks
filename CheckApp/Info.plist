@@ -2,6 +2,103 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>lync-intunemam</string>
+		<string>lync</string>
+		<string>sip</string>
+		<string>sip-intunemam</string>
+		<string>ms-sfb-tp</string>
+		<string>ms-sfb-df</string>
+		<string>ms-sfb</string>
+		<string>ms-sfb-intunemam</string>
+
+		<string>com.hammerandchisel.discord</string>
+
+		<string>com.google.hangouts</string>
+		<string>com.google.hangouts-v3</string>
+		<string>com.google.sso.183697946088-m3jnlsqshjhh5lbvg05k46q1k4qqtrgn</string>
+
+		<string>fb-messenger-share-api</string>
+		<string>fb-messenger-neue</string>
+		<string>fb-messenger-diode</string>
+		<string>fb-messenger</string>
+		<string>fb-messenger-public</string>
+		<string>fb237759909591655</string>
+		<string>fb-messenger-share</string>
+		<string>fb-messenger-voip</string>
+		<string>fb-messenger-group-thread</string>
+		<string>fb-messenger-bishop</string>
+		<string>fb-messenger-platform-20150714</string>
+		<string>fb-messenger-platform-20150305</string>
+		<string>fb-messenger-platform-20150218</string>
+		<string>fb-messenger-platform-20150128</string>
+		<string>fb-messenger-platform</string>
+		<string>fb-messenger-api20131028</string>
+		<string>fb-messenger-api20140131</string>
+		<string>fb-messenger-api20140301</string>
+		<string>fb-messenger-api20140430</string>
+		<string>fb-messenger-api</string>
+		<string>fb-messenger-share-api</string>
+		<string>fb-messenger-public</string>
+		<string>fb-messenger-family</string>
+		<string>fb-messenger-neue</string>
+		<string>fb-page-messages</string>
+		<string>fb-messenger-diode</string>
+		<string>fb-messenger</string>
+		<string>fb237759909591655</string>
+		<string>fb-messenger-share</string>
+		<string>fb-messenger-voip</string>
+		<string>fb-messenger-platform-20150714</string>
+		<string>fb-messenger-platform-20150305</string>
+		<string>fb-messenger-platform-20150218</string>
+		<string>fb-messenger-platform-20150128</string>
+		<string>fb-messenger-platform</string>
+		<string>fb-messenger-group-thread</string>
+		<string>fb-events-share</string>
+		<string>fb-messenger-quicksilver-20170327</string>
+		<string>fb-messenger-bishop</string>
+		<string>fb-messenger-whatsapp-2</string>
+		<string>fb-messenger-sls</string>
+		<string>fb-messenger-cw</string>
+		<string>fb-messenger-nbf</string>
+		<string>fb-messenger-prefill-20191211</string>
+
+		<string>sgnl</string>
+
+		<string>slack</string>
+		<string>com.googleusercontent.apps.331588195051-jsmlcgdl2li407e48kjpjqgrb50k7u7c</string>
+
+		<string>appcenter-e7c87d62-956b-468f-ab23-1e33f6920b6c</string>
+		<string>msteams</string>
+		<string>msteams-intunemam</string>
+		<string>hae7c87d62956b468fab231e33f6920b6c</string>
+		<string>hae7c87d62956b468fab231e33f6920b6c-intunemam</string>
+		<string>x-msauth-ms-st</string>
+		<string>x-msauth-ms-st-intunemam</string>
+		<string>msteams-fl</string>
+
+		<string>threemawork</string>
+
+		<string>VIPole</string>
+
+		<string>wexinVideoAPI</string>
+		<string>weixin</string>
+		<string>weixinapp</string>
+		<string>fb290293790992170</string>
+		<string>wechat</string>
+		<string>QQ41C152CF</string>
+		<string>prefs</string>
+		<string>wx703</string>
+		<string>weixinULAPI</string>
+		
+		<string>zoomus</string>
+		<string>zoomphonecall</string>
+		<string>AasDd9D133C-B9d78-4Cd10-A9f9fn0-92B8jCA6ko7F32F</string>
+		<string>wxbcc2200e9019ab4f</string>
+		<string>wx168a26bec2905463</string>
+
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
