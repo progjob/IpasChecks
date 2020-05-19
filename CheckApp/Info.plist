@@ -4,9 +4,119 @@
 <dict>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>org-appextension-feature-password-management</string>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>afnvision</string>
+		<string>artisto</string>
+		<string>fb135080810021772</string>
+		<string>fb1616109281957056</string>
+		<string>fb318204051605400</string>
+		<string>fb</string>
+		<string>gplus</string>
+		<string>icq</string>
+		<string>italia-online-mail-x-callback</string>
+		<string>italia-online-mail-x-callback-corp</string>
+		<string>itms-apps</string>
+		<string>itms-services</string>
+		<string>jwscheme</string>
+		<string>mailruagent</string>
+		<string>mailrugames</string>
+		<string>mailrumail</string>
+		<string>mailrumyworld</string>
+		<string>mailrunews</string>
+		<string>mycom-mail-x-callback</string>
+		<string>mycom-mail-x-callback-corp</string>
+		<string>snapster</string>
+		<string>torg</string>
+		<string>tweetbot</string>
+		<string>twitter</string>
+		<string>vk5544449</string>
+		<string>x-mailrumyworld</string>
+		<string>youla</string>
+		<string>blablacar</string>
+		<string>waze</string>
+		<string>wazerider</string>
+		<string>dublway</string>
+		<string>firefox</string>
+		<string>googlechrome</string>
+		<string>googlechromes</string>
+		<string>dclub</string>
+		<string>whatsapp</string>
+		<string>viber</string>
+		<string>tg</string>
+		<string>fb-messenger</string>
+		<string>tamtam</string>
+		<string>skype</string>
+		<string>cian</string>
+		<string>domofond</string>
+		<string>aliexpress</string>
+		<string>joom</string>
+		<string>lamoda</string>
+		<string>ozon</string>
+		<string>yandexmarket</string>
+		<string>youla</string>
+		<string>wish</string>
+		<string>dromauto</string>
+		<string>autoru</string>
+		<string>ru.avito</string>
+		<string>fb513232145676534</string>
+		<string>fb417006688379737</string>
+		<string>ubereats</string>
+		<string>foodfox</string>
+		<string>dclub</string>
+		<string>ZakaZaka</string>
+		<string>asos</string>
+		<string>zara</string>
+		<string>com.mango.2010</string>
+		<string>com.hm.goe</string>
+		<string>dlkv</string>
+		<string>nap</string>
+		<string>farfetch</string>
+		<string>bonprix</string>
+		<string>bershka</string>
+		<string>oodjiIPhone</string>
+		<string>pullbear</string>
+		<string>babaduapp</string>
+		<string>fb291735881020245</string>
+		<string>merchantApp</string>
+		<string>ulmart</string>
+		<string>mediamarkt</string>
+		<string>sportmaster</string>
+		<string>vzt</string>
+		<string>yandextaxi</string>
+		<string>uber</string>
+		<string>gettaxi</string>
+		<string>maximzakaz</string>
+		<string>CityMobil</string>
+		<string>megafonlk</string>
+		<string>mftv</string>
+		<string>inshopper.ru</string>
+		<string>odnoklassniki</string>
+		<string>mrhoroscopes</string>
+		<string>mailrunewsopennews</string>
+		<string>vk</string>
+		<string>cloudmailru</string>
+		<string>rto</string>
+		<string>yandexmusic</string>
+		<string>boom</string>
+		<string>lync-intunemam</string>
+		<string>lync</string>
+		<string>sip</string>
+		<string>sip-intunemam</string>
+		<string>ms-sfb-tp</string>
+		<string>ms-sfb-df</string>
+		<string>ms-sfb</string>
+		<string>ms-sfb-intunemam</string>
+
+		<string>com.hammerandchisel.discord</string>
+
 		<string>com.google.hangouts</string>
 		<string>com.google.hangouts-v3</string>
 		<string>com.google.sso.183697946088-m3jnlsqshjhh5lbvg05k46q1k4qqtrgn</string>
+
 		<string>fb-messenger-share-api</string>
 		<string>fb-messenger-neue</string>
 		<string>fb-messenger-diode</string>
@@ -51,6 +161,12 @@
 		<string>fb-messenger-cw</string>
 		<string>fb-messenger-nbf</string>
 		<string>fb-messenger-prefill-20191211</string>
+
+		<string>sgnl</string>
+
+		<string>slack</string>
+		<string>com.googleusercontent.apps.331588195051-jsmlcgdl2li407e48kjpjqgrb50k7u7c</string>
+
 		<string>appcenter-e7c87d62-956b-468f-ab23-1e33f6920b6c</string>
 		<string>msteams</string>
 		<string>msteams-intunemam</string>
@@ -59,7 +175,11 @@
 		<string>x-msauth-ms-st</string>
 		<string>x-msauth-ms-st-intunemam</string>
 		<string>msteams-fl</string>
+
 		<string>threemawork</string>
+
+		<string>VIPole</string>
+
 		<string>wexinVideoAPI</string>
 		<string>weixin</string>
 		<string>weixinapp</string>
@@ -69,116 +189,13 @@
 		<string>prefs</string>
 		<string>wx703</string>
 		<string>weixinULAPI</string>
+		
 		<string>zoomus</string>
 		<string>zoomphonecall</string>
 		<string>AasDd9D133C-B9d78-4Cd10-A9f9fn0-92B8jCA6ko7F32F</string>
 		<string>wxbcc2200e9019ab4f</string>
 		<string>wx168a26bec2905463</string>
 
-
-		<string>f1b-messenasdger-api20140301a</string>
-		<string>f2b-messasdengeqwer-api20140430b</string>
-		<string>f3b-mesasdsenger-apic</string>
-		<string>f4b-mesasdsenger-api20131028c</string>
-		<string>f5b-mesasdsenger-api20140131e</string>
-		<string>f6b-meaaaassengerqwe-api20140301f</string>
-		<string>f7b-messsessnger-api20sad140430</string>
-		<string>f8b-mfffesseqwenger-api20140430</string>
-		<string>f9b-messeeqnger-api</string>
-		<string>f0b-messenqweger-api</string>
-		<string>1fb-messengerasdc-api20131028</string>
-		<string>2fb-messenger-apsadi20140131</string>
-		<string>3fb-messenger-api20140301</string>
-		<string>4fb-messenger-api20140430</string>
-		<string>5ffasb-messenger-api</string>
-		<string>6fafsb-messenger-api20131028</string>
-		<string>7fb-messenger-api20140131</string>
-		<string>8fb-messenger-api20140301</string>
-		<string>9fb-messenger-api20140430</string>
-		<string>0fb-messenger-api</string>
-		<string>qfb-messenger-api20131028</string>
-		<string>wfb-messenger-api20140131</string>
-		<string>efb-messenger-api20140301</string>
-		<string>rfb-messenger-api20140430</string>
-		<string>tfb-messenger-api20140430</string>
-		<string>yfb-messenger-api</string>
-		<string>ufb-messenger-api20140430</string>
-		<string>ifb-messenger-api</string>
-		<string>ofb-messenger-api20131028</string>
-		<string>pfb-messenger-api20140131</string>
-		<string>afb-messenger-api20140301</string>
-		<string>sfb-messenger-api20140430</string>
-		<string>dfb-messenger-api20140430</string>
-		<string>ffb-messenger-api</string>
-		<string>gfb-messenger-api</string>
-		<string>hfb-messenger-api20131028</string>
-		<string>jfb-messenger-api20140131</string>
-		<string>kfb-messenger-api20140301</string>
-		<string>lfb-messenger-api20140430</string>
-		<string>zfb-messenger-api</string>
-		<string>xfb-messenger-api20131028</string>
-
-
-
-		<string>1f1b-messenasdger-api20140301a1</string>
-		<string>2f2b-messasdengeqwer-api20140430b</string>
-		<string>3f3b-mesasdsenger-apic</string>
-		<string>4f4b-mesasdsenger-api20131028c</string>
-		<string>5f5b-mesasdsenger-api20140131e</string>
-		<string>6f6b-meaaaassengerqwe-api20140301f</string>
-		<string>7f7b-messsessnger-api20sad140430</string>
-		<string>8f8b-mfffesseqwenger-api20140430</string>
-		<string>9f9b-messeeqnger-api</string>
-		<string>0f0b-messenqweger-api</string>
-		<string>q1fb-messengerasdc-api20131028</string>
-		<string>w2fb-messenger-apsadi20140131</string>
-		<string>e3fb-messenger-api20140301</string>
-		<string>r4fb-messenger-api20140430</string>
-		<string>t5ffasb-messenger-api</string>
-		<string>y6fafsb-messenger-api20131028</string>
-		<string>u7fb-messenger-api20140131</string>
-		<string>i8fb-messenger-api20140301</string>
-		<string>o9fb-messenger-api20140430</string>
-		<string>p0fb-messenger-api</string>
-		<string>aqfb-messenger-api20131028</string>
-		<string>swfb-messenger-api20140131</string>
-		<string>defb-messenger-api20140301</string>
-		<string>frfb-messenger-api20140430</string>
-		<string>gtfb-messenger-api20140430</string>
-		<string>hyfb-messenger-api</string>
-		<string>jufb-messenger-api20140430</string>
-		<string>kifb-messenger-api</string>
-		<string>lofb-messenger-api20131028</string>
-		<string>zpfb-messenger-api20140131</string>
-		<string>xafb-messenger-api20140301</string>
-		<string>csfb-messenger-api20140430</string>
-		<string>vdfb-messenger-api20140430</string>
-		<string>bffb-messenger-api</string>
-		<string>ngfb-messenger-api</string>
-		<string>mhfb-messenger-api20131028</string>
-		<string>qqjfb-messenger-api20140131</string>
-		<string>sskfb-messenger-api20140301</string>
-		<string>sslfb-messenger-api20140430</string>
-		<string>gfdgzfb-messenger-api</string>
-		<string>fffxfb-messenger-api20131028</string>
-
-
-
-
-
-		<string>com.hammerandchisel.discord</string>
-		<string>lync-intunemam</string>
-		<string>lync</string>
-		<string>sip</string>
-		<string>sip-intunemam</string>
-		<string>ms-sfb-tp</string>
-		<string>ms-sfb-df</string>
-		<string>ms-sfb</string>
-		<string>ms-sfb-intunemam</string>
-		<string>VIPole</string>
-		<string>sgnl</string>
-		<string>slack</string>
-		<string>com.googleusercontent.apps.331588195051-jsmlcgdl2li407e48kjpjqgrb50k7u7c</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
