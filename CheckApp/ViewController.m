@@ -20,35 +20,41 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSDictionary *bundle = SchemesData.bundles[indexPath.row];
-    NSArray *schemes = [bundle objectForKey:@"schemes"];
-
-    NSLog(@"Start: %@", [bundle objectForKey:@"name"]);
-    if (schemes.count > 0) {
-        BOOL isFailed = NO;
-        
-        for (NSString *scheme in schemes) {
-            NSString *schemeURLString = [self schemeFromString:scheme];
-            NSURL *url = [NSURL URLWithString:schemeURLString];
-            BOOL canOpenURL = [UIApplication.sharedApplication canOpenURL:url];
-
-            if (!canOpenURL) {
-                isFailed = YES;
-                NSLog(@"ERROR (%@) url = %@", [bundle objectForKey:@"name"],  url);
-            }
-        }
-        
-        if (!isFailed) {
-            NSLog(@"All schemes are alives!");
+    if (indexPath.row == 0) {
+        for (int i = 1; i<SchemesData.bundles.count; i++) {
+            NSDictionary *bundle = SchemesData.bundles[i];
+            [self startForBundle:bundle];
         }
     } else {
-        NSLog(@"Warning: empty schemes list");
+        NSDictionary *bundle = SchemesData.bundles[indexPath.row];
+        [self startForBundle:bundle];
     }
-    NSLog(@"End.");
 }
 
-- (NSString *)schemeFromString:(NSString *)string {
-    return [NSString stringWithFormat:@"%@://", string];
+- (void)startForBundle:(NSDictionary *)bundle {
+    NSArray *schemes = [bundle objectForKey:@"schemes"];
+    NSLog(@"Start: %@", [bundle objectForKey:@"name"]);
+    if (schemes.count > 0) {
+        [self testSchemesList:schemes];
+    } else {
+        NSLog(@"\t\t\tWarning: empty schemes list");
+    }
+}
+
+- (void)testSchemesList:(NSArray *)list {
+    BOOL isFailed = NO;
+    
+    for (NSString *scheme in list) {
+        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@://", scheme]];
+        if (![UIApplication.sharedApplication canOpenURL:url]) {
+            isFailed = YES;
+            NSLog(@"\t\t\tERROR url = %@", url);
+        }
+    }
+    
+    if (!isFailed) {
+        NSLog(@"\t\t\tAll schemes are alives!");
+    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -72,7 +78,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return (CGFloat)50.0;
+    return (CGFloat)40.0;
 }
 
 @end

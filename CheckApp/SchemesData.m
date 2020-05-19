@@ -13,6 +13,11 @@
 + (NSArray *)bundles {
     return @[
         @{
+            @"name": @"All",
+            @"id": @"",
+            @"schemes" : @"",
+        },
+        @{
             @"name": @"Business",
             @"id": @"com.microsoft.lync2013.iphone",
             @"schemes" : self.Business,
